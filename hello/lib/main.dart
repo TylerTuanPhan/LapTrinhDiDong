@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'flutter_01.dart';
 import 'flutter_02.dart';
 import 'flutter_03.dart';
+import 'flutter_04.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  TemperatureConverter(),
+      home:  BMICalculator(),
     );
   }
 }

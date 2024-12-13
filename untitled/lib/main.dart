@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'flutter_01.dart';
-import 'flutter_02.dart';
-import 'flutter_03.dart';
-import 'flutter_04.dart';
-import 'BT01.dart';
+import 'package:untitled/baitap02.dart';
+import 'package:untitled/Example.dart';
+import 'package:untitled/baitap01.dart';
+import 'package:untitled/baitap03.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,17 +11,20 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  void main() {
+    runApp(const MyApp());
+  }
+
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
+    Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  BMICalculator(),
+      home: const LoginPage(),
     );
   }
 }
-

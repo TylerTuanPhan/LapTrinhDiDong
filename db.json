@@ -14,7 +14,7 @@
 			"id" : 3,
 			"title": "Độ siêng năng",
 			"body": "Hôm nay dọn nhà 2 tầng."
-		},
+		}
 	],
 	"users" : [
 		{
@@ -26,7 +26,7 @@
 			"username" : "hoang",
 			"password": "20092003",
 			"fullname": "Lu Huy Hoang"
-		},
-	],	
+		}
+	]
+
 }	
-}

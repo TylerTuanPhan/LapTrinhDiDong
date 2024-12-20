@@ -1,0 +1,32 @@
+{
+	"posts" : [
+		{
+			"id" : 1,
+			"title": "Độ đẹp trai",
+			"body": "Tao đẹp trai quá trời."
+		},
+		{
+			"id" : 2,
+			"title": "Độ ngáo",
+			"body": "Tôi bị ngu."
+		},
+		{
+			"id" : 3,
+			"title": "Độ siêng năng",
+			"body": "Hôm nay dọn nhà 2 tầng."
+		},
+	],
+	"users" : [
+		{
+			"username" : "tuan",
+			"password": "11032003",
+			"fullname": "Phan Huynh Anh Tuan"
+		},
+		{
+			"username" : "hoang",
+			"password": "20092003",
+			"fullname": "Lu Huy Hoang"
+		},
+	],	
+}	
+}

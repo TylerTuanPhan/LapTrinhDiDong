@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 class MenuPage extends StatefulWidget {
+  final int tableNumber;  // Số bàn được truyền từ giao diện quản lý bàn
+
+  MenuPage({required this.tableNumber});
+
   @override
   _MenuPageState createState() => _MenuPageState();
 }
@@ -21,7 +25,7 @@ class _MenuPageState extends State<MenuPage> with SingleTickerProviderStateMixin
       appBar: AppBar(
         title: Row(
           children: [
-            Text("Bàn 28: Xin Chào"),
+            Text("Bàn ${widget.tableNumber}: Xin Chào"),  // Hiển thị số bàn
             Spacer(),
             Image.network(
               'https://storage.googleapis.com/a1aa/image/nis2wlnYbNJuCNJf1tqtI6oKFCQHz0kDT9QNsL4u6rMVT29JA.jpg',

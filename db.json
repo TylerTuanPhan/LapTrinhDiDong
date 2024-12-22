@@ -1,22 +1,21 @@
-<<<<<<< HEAD
 {
 	"posts": [
 		{
 			"id": 1,
-			"title": "Độ đẹp trai",
-			"body": "Tôi đẹp trai quá trời.",
+			"title": "Hủ tiếu xào rau",
+			"body": "Hủ thiểu được xào với nhiều rau và thịt bò.",
 			"image": "https://images2.thanhnien.vn/528068263637045248/2024/1/25/c3c8177f2e6142e8c4885dbff89eb92a-65a11aeea03da880-1706156293184503262817.jpg"
 		},
 		{
 			"id": 2,
-			"title": "Độ ngáo",
-			"body": "Tôi bị ngu.",
+			"title": "Bánh canh cua",
+			"body": "Bánh canh cua được nấu với nhiều cua và bánh canh.",
 			"image": "https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg"
 		},
 		{
 			"id": 3,
-			"title": "Độ siêng năng",
-			"body": "Hôm nay dọn nhà 2 tầng.",
+			"title": "Phở trộn thịt gà",
+			"body": "Phở được nấu khô để trộn với gà xé kết hợp với nhiều rau.",
 			"image": "https://d1hjkbq40fs2x4.cloudfront.net/2016-01-31/files/1045-2.jpg"
 		}
 	],
@@ -33,39 +32,3 @@
 		}
 	]
 }
-=======
-{
-	"posts": [
-		{
-			"id": 1,
-			"title": "Độ đẹp trai",
-			"body": "Tôi đẹp trai quá trời.",
-			"image": "https://images2.thanhnien.vn/528068263637045248/2024/1/25/c3c8177f2e6142e8c4885dbff89eb92a-65a11aeea03da880-1706156293184503262817.jpg"
-		},
-		{
-			"id": 2,
-			"title": "Độ ngáo",
-			"body": "Tôi bị ngu.",
-			"image": "https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg"
-		},
-		{
-			"id": 3,
-			"title": "Độ siêng năng",
-			"body": "Hôm nay dọn nhà 2 tầng.",
-			"image": "https://d1hjkbq40fs2x4.cloudfront.net/2016-01-31/files/1045-2.jpg"
-		}
-	],
-	"users": [
-		{
-			"username": "tuan",
-			"password": "11032003",
-			"fullname": "Phan Huynh Anh Tuan"
-		},
-		{
-			"username": "hoang",
-			"password": "20092003",
-			"fullname": "Lu Huy Hoang"
-		}
-	]
-}
->>>>>>> f24d008ff83c0e8da97ad1ba1de8eacc9454f911

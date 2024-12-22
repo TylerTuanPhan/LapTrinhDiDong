@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/api_services.dart';
 import '../models/post.dart';
+import '../screens/post_detail_screen.dart';
 
 class PostScreen extends StatefulWidget {
   const PostScreen({super.key});
@@ -20,7 +21,7 @@ class _PostScreenState extends State<PostScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold( // Add Scaffold as Material widget ancestor
+    return Scaffold(
       appBar: AppBar(
         title: const Text('Bài viết'),
       ),
@@ -28,40 +29,34 @@ class _PostScreenState extends State<PostScreen> {
         future: futurePosts,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(
-              child: CircularProgressIndicator(),
-            );
+            return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
-            return Center(
-              child: Text('Lỗi: ${snapshot.error}'),
-            );
+            return Center(child: Text('Lỗi: ${snapshot.error}'));
           } else if (snapshot.hasData) {
             List<Post> posts = snapshot.data!;
             return ListView.builder(
               itemCount: posts.length,
               itemBuilder: (context, index) {
-                return Card( // Wrap ListTile in Card for better visual appearance
+                return Card(
                   margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   child: ListTile(
-                    title: Text(posts[index].title!),
-                    subtitle: Text(posts[index].body!),
-                    // onTap: () {
-                    //   Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(
-                    //     builder: (context) => PostDetailScreen(
-                    //         posts[index].id!,
-                    //     ),
-                    //   )
-                    // }
+                    leading: Image.network(posts[index].image ?? '', width: 100, fit: BoxFit.cover),
+                    title: Text(posts[index].title ?? 'No Title'),
+                    subtitle: Text(posts[index].body ?? 'No Content'),
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => PostDetailScreen(postId: posts[index].id!),
+                        ),
+                      );
+                    },
                   ),
                 );
               },
             );
           } else {
-            return const Center(
-              child: Text('Không có dữ liệu'),
-            );
+            return const Center(child: Text('Không có dữ liệu'));
           }
         },
       ),

@@ -1,34 +1,52 @@
 {
-	"posts": [
-		{
-			"id": 1,
-			"title": "Hủ tiếu xào rau",
-			"body": "Hủ thiểu được xào với nhiều rau và thịt bò.",
-			"image": "https://images2.thanhnien.vn/528068263637045248/2024/1/25/c3c8177f2e6142e8c4885dbff89eb92a-65a11aeea03da880-1706156293184503262817.jpg"
-		},
-		{
-			"id": 2,
-			"title": "Bánh canh cua",
-			"body": "Bánh canh cua được nấu với nhiều cua và bánh canh.",
-			"image": "https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg"
-		},
-		{
-			"id": 3,
-			"title": "Phở trộn thịt gà",
-			"body": "Phở được nấu khô để trộn với gà xé kết hợp với nhiều rau.",
-			"image": "https://d1hjkbq40fs2x4.cloudfront.net/2016-01-31/files/1045-2.jpg"
-		}
-	],
 	"users": [
-		{
-			"username": "tuan",
-			"password": "11032003",
-			"fullname": "Phan Huynh Anh Tuan"
-		},
-		{
-			"username": "hoang",
-			"password": "20092003",
-			"fullname": "Lu Huy Hoang"
-		}
+	  {
+		"id": 1,
+		"username": "admin",
+		"password": "admin123"
+	  }
+	],
+	"tables": [
+	  {
+		"id": 1,
+		"name": "Bàn 1",
+		"capacity": 4,
+		"isOccupied": false
+	  },
+	  {
+		"id": 2,
+		"name": "Bàn 2",
+		"capacity": 2,
+		"isOccupied": true
+	  }
+	],
+	"food": [
+	  {
+		"id": 1,
+		"name": "Bánh mì",
+		"price": 20000,
+		"description": "Bánh mì nướng với pate",
+		"image": "https://example.com/images/banhmi.jpg"
+	  },
+	  {
+		"id": 2,
+		"name": "Coca-Cola",
+		"price": 10000,
+		"description": "Đồ uống có gas",
+		"image": "https://example.com/images/coca.jpg"
+	  }
+	],
+	"orders": [
+	  {
+		"id": 1,
+		"tableId": 1,
+		"items": [
+		  {"name": "Bánh mì", "quantity": 2, "price": 20000, "image": "https://example.com/images/banhmi.jpg"},
+		  {"name": "Coca-Cola", "quantity": 1, "price": 10000, "image": "https://example.com/images/coca.jpg"}
+		],
+		"totalAmount": 50000,
+		"orderDate": "2024-12-29T10:00:00"
+	  }
 	]
-}
+  }
+  

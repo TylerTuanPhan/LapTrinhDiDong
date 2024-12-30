@@ -34,6 +34,27 @@
 		"price": 10000,
 		"description": "Đồ uống có gas",
 		"image": "https://example.com/images/coca.jpg"
+	  },
+	  {
+		"id": 3,
+		"name": "Coca-Cola",
+		"price": 10000,
+		"description": "Đồ uống có gas",
+		"image": "https://example.com/images/coca.jpg"
+	  },
+	  {
+		"id": 4,
+		"name": "Coca-Cola",
+		"price": 10000,
+		"description": "Đồ uống có gas",
+		"image": "https://example.com/images/coca.jpg"
+	  },
+	  {
+		"id": 5,
+		"name": "Coca-Cola",
+		"price": 10000,
+		"description": "Đồ uống có gas",
+		"image": "https://example.com/images/coca.jpg"
 	  }
 	],
 	"orders": [

@@ -21,41 +21,41 @@
 	  }
 	],
 	"food": [
-	  {
+		{
 		"id": 1,
-		"name": "Bánh mì",
+		"name": "Mì cay hải sản",
 		"price": 20000,
-		"description": "Bánh mì nướng với pate",
+		"description": "Mì cay hải sản, với nước dùng đậm đà và các loại hải sản tươi ngon.",
 		"image": "https://example.com/images/banhmi.jpg"
-	  },
-	  {
+		},
+		{
 		"id": 2,
-		"name": "Coca-Cola",
+		"name": "Mì cay bò Mỹ",
 		"price": 10000,
-		"description": "Đồ uống có gas",
+		"description": "Mì cay bò Mỹ với thịt bò tươi ngon, sốt cay đặc trưng và gia vị thơm ngon.",
 		"image": "https://example.com/images/coca.jpg"
-	  },
-	  {
+		},
+		{
 		"id": 3,
-		"name": "Coca-Cola",
+		"name": "Mỳ cay bò Úc",
 		"price": 10000,
-		"description": "Đồ uống có gas",
+		"description": "Mỳ cay bò Úc, được chế biến với thịt bò Úc mềm, gia vị đặc biệt và nước dùng cay nồng.",
 		"image": "https://example.com/images/coca.jpg"
-	  },
-	  {
+		},
+		{
 		"id": 4,
-		"name": "Coca-Cola",
+		"name": "Mỳ cay thập cẩm",
 		"price": 10000,
-		"description": "Đồ uống có gas",
+		"description": "Mỳ cay thập cẩm, kết hợp nhiều loại nguyên liệu như thịt, hải sản và rau củ tươi ngon.",
 		"image": "https://example.com/images/coca.jpg"
-	  },
-	  {
+		},
+		{
 		"id": 5,
-		"name": "Coca-Cola",
+		"name": "Mì cay Hàn Quốc",
 		"price": 10000,
-		"description": "Đồ uống có gas",
+		"description": "Mì cay Hàn Quốc, món mì truyền thống với nước dùng cay và các gia vị đặc trưng của Hàn Quốc.",
 		"image": "https://example.com/images/coca.jpg"
-	  }
+		}
 	],
 	"orders": [
 	  {
